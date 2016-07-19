@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -45,4 +45,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Sheet
+S 2300 1600 1500 1200
+U 578E513B
+F0 "DAC_set_supplies" 60
+F1 "DAC_set_supplies.sch" 60
+$EndSheet
 $EndSCHEMATC
