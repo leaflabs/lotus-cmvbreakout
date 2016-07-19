@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 2 8
 Title ""
 Date ""
 Rev ""
@@ -56,5 +56,11 @@ S 4000 1600 1500 1200
 U 578E5DCB
 F0 "supply_monitor" 59
 F1 "supply_monitor.sch" 59
+$EndSheet
+$Sheet
+S 2300 3000 1500 1200
+U 578E99E0
+F0 "switching_regs" 59
+F1 "switching_regs.sch" 59
 $EndSheet
 $EndSCHEMATC
