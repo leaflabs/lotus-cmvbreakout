@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 15
+Sheet 15 15
 Title ""
 Date ""
 Rev ""
@@ -45,16 +45,26 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 4000 2300 1100 400 
-U 5795395A
-F0 "FMC_1" 60
-F1 "FMC_1.sch" 60
-$EndSheet
-$Sheet
-S 4000 3000 1100 400 
-U 57953961
-F0 "FMC_2" 60
-F1 "FMC_2.sch" 60
-$EndSheet
+$Comp
+L KC705_FMC_HPC U?
+U 1 1 57954223
+P 6400 2400
+F 0 "U?" H 4250 3500 50  0000 L CNN
+F 1 "KC705_FMC_HPC" H 4250 2400 50  0000 L CNN
+F 2 "" H 6400 2400 50  0001 L CNN
+F 3 "" H 6400 2400 50  0001 L CNN
+	1    6400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L KC705_FMC_HPC U?
+U 2 1 57954230
+P 6400 6000
+F 0 "U?" H 4250 7100 50  0000 L CNN
+F 1 "KC705_FMC_HPC" H 4250 6000 50  0000 L CNN
+F 2 "" H 6400 6000 50  0001 L CNN
+F 3 "" H 6400 6000 50  0001 L CNN
+	2    6400 6000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
