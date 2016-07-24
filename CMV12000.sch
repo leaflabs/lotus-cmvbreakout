@@ -46,7 +46,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 8500 850  1300 400 
+S 8000 1900 1300 400 
 U 578D2EA2
 F0 "cmv12000_power" 60
 F1 "cmv12000_power.sch" 60
@@ -609,4 +609,80 @@ Text GLabel 5400 3800 2    59   Output ~ 0
 OUTCLK_P
 Text GLabel 5400 3900 2    59   Output ~ 0
 OUTCLK_N
+$Comp
+L CMV12000 U?
+U 3 1 57955CDE
+P 9400 5050
+F 0 "U?" H 8050 5150 50  0000 L CNN
+F 1 "CMV12000" H 8050 5050 50  0000 L CNN
+F 2 "" H 9400 5750 50  0001 L CNN
+F 3 "" H 9400 5750 50  0001 L CNN
+	3    9400 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 3000 7700 3000
+Wire Wire Line
+	7700 3100 7800 3100
+Wire Wire Line
+	7700 3200 7800 3200
+Wire Wire Line
+	7700 3300 7800 3300
+Wire Wire Line
+	7700 3500 7800 3500
+Wire Wire Line
+	7700 3600 7800 3600
+Wire Wire Line
+	7700 3700 7800 3700
+Wire Wire Line
+	7800 3800 7700 3800
+Wire Wire Line
+	7800 3900 7700 3900
+Wire Wire Line
+	7800 4300 7700 4300
+Wire Wire Line
+	7800 4400 7700 4400
+Wire Wire Line
+	7800 4600 7700 4600
+Wire Wire Line
+	7800 4700 7700 4700
+Wire Wire Line
+	7800 4800 7700 4800
+Wire Wire Line
+	9400 4300 9500 4300
+Wire Wire Line
+	9400 4400 9500 4400
+Wire Wire Line
+	9400 4500 9500 4500
+Wire Wire Line
+	9400 4600 9500 4600
+Text GLabel 7700 3000 0    59   Input ~ 0
+SPI_CLK
+Text GLabel 7700 3100 0    59   Input ~ 0
+SPI_CS_N
+Text GLabel 7700 3200 0    59   Input ~ 0
+SPI_MOSI
+Text GLabel 7700 3300 0    59   Output ~ 0
+SPI_MISO
+Text GLabel 7700 3500 0    59   Input ~ 0
+CLK_IN
+Text GLabel 7700 3600 0    59   BiDi ~ 0
+SYS_RES_N
+Text GLabel 7700 3700 0    59   BiDi ~ 0
+T_EXP1
+Text GLabel 7700 3800 0    59   BiDi ~ 0
+T_EXP2
+Text GLabel 7700 3900 0    59   BiDi ~ 0
+FRAME_REQ
+Text GLabel 7700 4700 0    59   BiDi ~ 0
+Tdig1
+Text GLabel 7700 4800 0    59   BiDi ~ 0
+Tdig2
+NoConn ~ 9500 4300
+NoConn ~ 9500 4400
+NoConn ~ 9500 4500
+NoConn ~ 9500 4600
+NoConn ~ 7700 4300
+NoConn ~ 7700 4400
+NoConn ~ 7700 4600
 $EndSCHEMATC
