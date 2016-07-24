@@ -1,4 +1,4 @@
-update=Fri 15 Jul 2016 02:43:58 PM EDT
+update=Sun 24 Jul 2016 06:50:54 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,13 @@ LibName28=contrib
 LibName29=valves
 LibName30=/home/jessb/Projects/leafhw/hardware-lib/leaf
 LibName31=/home/jessb/Projects/leafhw/hardware-lib/cmv12000_temp
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=59

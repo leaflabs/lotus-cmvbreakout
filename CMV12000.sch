@@ -35,11 +35,11 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 16
-Title ""
+Sheet 12 16
+Title "CMV12000 Breakout Board"
 Date ""
 Rev ""
-Comp ""
+Comp "LeafLabs"
 Comment1 ""
 Comment2 ""
 Comment3 ""
