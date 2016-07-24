@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 15
+Sheet 15 16
 Title ""
 Date ""
 Rev ""
@@ -67,4 +67,26 @@ F 3 "" H 6400 6000 50  0001 L CNN
 	2    6400 6000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6400 1300 6500 1300
+Wire Wire Line
+	6400 1400 6500 1400
+Wire Wire Line
+	6400 1500 6500 1500
+Wire Wire Line
+	6400 1600 6500 1600
+Wire Wire Line
+	6400 1700 6500 1700
+Wire Wire Line
+	6400 1800 6500 1800
+Wire Wire Line
+	6400 1900 6500 1900
+Wire Wire Line
+	6400 2000 6500 2000
+Wire Wire Line
+	6400 2100 6500 2100
+Wire Wire Line
+	6400 2200 6500 2200
+Wire Wire Line
+	6400 2300 6500 2300
 $EndSCHEMATC

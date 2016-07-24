@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 4 16
 Title ""
 Date ""
 Rev ""
@@ -100,8 +100,6 @@ F 3 "" H 5700 1650 50  0000 C CNN
 	1    5700 1650
 	1    0    0    -1  
 $EndComp
-Text GLabel 6600 2550 2    59   Input ~ 0
-SPI_AUX_MOSI
 Text GLabel 6600 2650 2    59   Input ~ 0
 SPI_AUX_MISO
 Text GLabel 6600 2750 2    59   Input ~ 0
@@ -167,6 +165,70 @@ Text GLabel 4500 4050 0    59   Input ~ 0
 VREF_ADC_2V5
 Text Label 4200 2350 0    59   ~ 0
 MON_IN1
+Text Label 4200 2450 0    59   ~ 0
+MON_IN2
+Text Label 4200 2550 0    59   ~ 0
+MON_IN3
+Text Label 4200 2650 0    59   ~ 0
+MON_IN4
+Text Label 4200 2750 0    59   ~ 0
+MON_IN5
+Text Label 4200 2850 0    59   ~ 0
+MON_IN6
+Text Label 4200 2950 0    59   ~ 0
+MON_IN7
+Text Label 4200 3050 0    59   ~ 0
+MON_IN8
+Text Label 4200 3150 0    59   ~ 0
+MON_IN9
+Text Label 4200 3250 0    59   ~ 0
+MON_IN10
+Text Label 4200 3350 0    59   ~ 0
+MON_IN11
+Text Label 4200 3450 0    59   ~ 0
+MON_IN12
+Text Label 4200 3550 0    59   ~ 0
+MON_IN13
+Text Label 4200 3650 0    59   ~ 0
+MON_IN14
+Text Label 4200 3750 0    59   ~ 0
+MON_IN15
+Text Label 4200 3850 0    59   ~ 0
+MON_IN16
+Entry Wire Line
+	4000 3750 4100 3850
+Entry Wire Line
+	4000 3650 4100 3750
+Entry Wire Line
+	4000 3550 4100 3650
+Entry Wire Line
+	4000 3450 4100 3550
+Entry Wire Line
+	4000 3350 4100 3450
+Entry Wire Line
+	4000 3250 4100 3350
+Entry Wire Line
+	4000 3150 4100 3250
+Entry Wire Line
+	4000 3050 4100 3150
+Entry Wire Line
+	4000 2950 4100 3050
+Entry Wire Line
+	4000 2850 4100 2950
+Entry Wire Line
+	4000 2750 4100 2850
+Entry Wire Line
+	4000 2650 4100 2750
+Entry Wire Line
+	4000 2550 4100 2650
+Entry Wire Line
+	4000 2450 4100 2550
+Entry Wire Line
+	4000 2350 4100 2450
+Entry Wire Line
+	4000 2250 4100 2350
+Text GLabel 3900 2150 0    59   Input ~ 0
+MON_IN[1..16]
 Wire Wire Line
 	6500 3250 6600 3250
 Wire Wire Line
@@ -262,72 +324,10 @@ Wire Wire Line
 	4100 3750 4700 3750
 Wire Wire Line
 	4100 3850 4700 3850
-Text Label 4200 2450 0    59   ~ 0
-MON_IN2
-Text Label 4200 2550 0    59   ~ 0
-MON_IN3
-Text Label 4200 2650 0    59   ~ 0
-MON_IN4
-Text Label 4200 2750 0    59   ~ 0
-MON_IN5
-Text Label 4200 2850 0    59   ~ 0
-MON_IN6
-Text Label 4200 2950 0    59   ~ 0
-MON_IN7
-Text Label 4200 3050 0    59   ~ 0
-MON_IN8
-Text Label 4200 3150 0    59   ~ 0
-MON_IN9
-Text Label 4200 3250 0    59   ~ 0
-MON_IN10
-Text Label 4200 3350 0    59   ~ 0
-MON_IN11
-Text Label 4200 3450 0    59   ~ 0
-MON_IN12
-Text Label 4200 3550 0    59   ~ 0
-MON_IN13
-Text Label 4200 3650 0    59   ~ 0
-MON_IN14
-Text Label 4200 3750 0    59   ~ 0
-MON_IN15
-Text Label 4200 3850 0    59   ~ 0
-MON_IN16
-Entry Wire Line
-	4000 3750 4100 3850
-Entry Wire Line
-	4000 3650 4100 3750
-Entry Wire Line
-	4000 3550 4100 3650
-Entry Wire Line
-	4000 3450 4100 3550
-Entry Wire Line
-	4000 3350 4100 3450
-Entry Wire Line
-	4000 3250 4100 3350
-Entry Wire Line
-	4000 3150 4100 3250
-Entry Wire Line
-	4000 3050 4100 3150
-Entry Wire Line
-	4000 2950 4100 3050
-Entry Wire Line
-	4000 2850 4100 2950
-Entry Wire Line
-	4000 2750 4100 2850
-Entry Wire Line
-	4000 2650 4100 2750
-Entry Wire Line
-	4000 2550 4100 2650
-Entry Wire Line
-	4000 2450 4100 2550
-Entry Wire Line
-	4000 2350 4100 2450
-Entry Wire Line
-	4000 2250 4100 2350
 Wire Bus Line
 	4000 3750 4000 2150
 Wire Bus Line
 	4000 2150 3900 2150
-Text GLabel 3900 2150 0    59   Input ~ 0
-MON_IN[1..16]
+Text GLabel 6600 2550 2    59   Input ~ 0
+SPI_AUX_MOSI
 $EndSCHEMATC

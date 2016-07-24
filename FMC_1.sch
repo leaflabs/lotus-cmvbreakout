@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 15
+Sheet 15 16
 Title ""
 Date ""
 Rev ""
@@ -430,7 +430,7 @@ SPI_AUX_MOSI
 Text GLabel 8700 2300 2    60   BiDi ~ 0
 VDD_RES_PWDN
 Text GLabel 8700 2600 2    60   BiDi ~ 0
-VDD18PLL_PWDN
+VDD18_PLL_PWDN
 Text GLabel 8700 3100 2    60   BiDi ~ 0
 SPI_AUX_ADC_CS_N
 Text GLabel 8700 3200 2    60   BiDi ~ 0
@@ -445,7 +445,7 @@ Text GLabel 8700 5000 2    60   BiDi ~ 0
 Tdig2
 Text GLabel 8700 5200 2    60   BiDi ~ 0
 T_EXP1
-Text GLabel 8700 5400 2    60   BiDi ~ 0
+Text GLabel 8700 5400 2    60   Output ~ 0
 CLK_IN
 Text GLabel 8700 4800 2    60   BiDi ~ 0
 VDD_PIX_PWDN
