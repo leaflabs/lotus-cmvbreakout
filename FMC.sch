@@ -29,13 +29,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:leaf
-LIBS:cmv12000_temp
 LIBS:cmv12000_breakout-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 16
+Sheet 14 16
 Title "CMV12000 Breakout Board"
 Date ""
 Rev ""
