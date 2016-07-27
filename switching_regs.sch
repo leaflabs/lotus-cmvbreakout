@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:cmv12000_breakout-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,7 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:leaf
-LIBS:cmv12000_temp
 LIBS:cmv12000_breakout-cache
 EELAYER 25 0
 EELAYER END
