@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:cmv12000_breakout-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,12 +29,11 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:leaf
-LIBS:cmv12000_breakout-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 16
+Sheet 16 8
 Title "CMV12000 Breakout Board"
 Date ""
 Rev ""
