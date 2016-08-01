@@ -176,46 +176,24 @@ Text GLabel 3650 6100 2    59   BiDi ~ 0
 LVDS_7_N
 Text GLabel 3650 6200 2    59   BiDi ~ 0
 LVDS_7_P
-Text GLabel 6600 2200 2    59   BiDi ~ 0
-SPI_AUX_CLK
-Text GLabel 6600 2300 2    59   BiDi ~ 0
+Text GLabel 6600 2300 2    59   Output ~ 0
 SPI_CLK
-Text GLabel 6600 3700 2    60   BiDi ~ 0
-VDD18_PWDN
-Text GLabel 6600 4500 2    60   BiDi ~ 0
+Text GLabel 6600 4500 2    60   Output ~ 0
 T_EXP2
 Text GLabel 6600 5200 2    59   BiDi ~ 0
 SYS_RES_N
 Text GLabel 6600 5300 2    59   BiDi ~ 0
 FRAME_REQ
-Text GLabel 6600 2000 2    59   BiDi ~ 0
-SPI_AUX_DAC_CS_N
-Text GLabel 6600 5100 2    59   BiDi ~ 0
+Text GLabel 6600 5100 2    59   Output ~ 0
 SPI_MOSI
-Text GLabel 6600 2900 2    60   BiDi ~ 0
-VDD_RES_PWDN
-Text GLabel 6600 3500 2    60   BiDi ~ 0
-VDD18_PLL_PWDN
-Text GLabel 6600 1800 2    59   BiDi ~ 0
-SPI_AUX_ADC_CS_N
-Text GLabel 6600 2100 2    59   BiDi ~ 0
-SPI_AUX_MISO
-Text GLabel 6600 2700 2    60   BiDi ~ 0
-VTREF_OFF
-Text GLabel 6600 3300 2    60   BiDi ~ 0
-VDD33_PWDN
 Text GLabel 6600 4100 2    60   BiDi ~ 0
 Tdig1
 Text GLabel 6600 3900 2    60   BiDi ~ 0
 Tdig2
-Text GLabel 6600 4700 2    60   BiDi ~ 0
+Text GLabel 6600 4700 2    60   Output ~ 0
 T_EXP1
 Text GLabel 6600 5500 2    59   Output ~ 0
 CLK_IN
-Text GLabel 6600 3100 2    60   BiDi ~ 0
-VDD_PIX_PWDN
-Text GLabel 6600 2500 2    60   BiDi ~ 0
-VTSIG_OFF
 $Comp
 L KC705_FMC_HPC-RESCUE-cmv12000_breakout U?
 U 3 1 579B4626
@@ -246,12 +224,10 @@ Text GLabel 6600 5600 2    59   BiDi ~ 0
 LVDS_CLK_N
 Text GLabel 6600 5700 2    59   BiDi ~ 0
 LVDS_CLK_P
-Text GLabel 6600 4900 2    59   BiDi ~ 0
+Text GLabel 6600 4900 2    59   Output ~ 0
 SPI_CS_N
-Text GLabel 6600 4300 2    59   BiDi ~ 0
+Text GLabel 6600 4300 2    59   Input ~ 0
 SPI_MISO
-Text GLabel 6600 1900 2    59   BiDi ~ 0
-SPI_AUX_MOSI
 $Comp
 L KC705_FMC_HPC-RESCUE-cmv12000_breakout U?
 U 5 1 579B47B1
@@ -266,10 +242,10 @@ F 3 "" H 10600 7500 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR064
+L GND #PWR070
 U 1 1 579B5AAA
 P 9600 5800
-F 0 "#PWR064" H 9600 5550 50  0001 C CNN
+F 0 "#PWR070" H 9600 5550 50  0001 C CNN
 F 1 "GND" H 9600 5650 50  0000 C CNN
 F 2 "" H 9600 5800 50  0000 C CNN
 F 3 "" H 9600 5800 50  0000 C CNN
@@ -277,10 +253,10 @@ F 3 "" H 9600 5800 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR065
+L GND #PWR071
 U 1 1 579B6170
 P 4400 900
-F 0 "#PWR065" H 4400 650 50  0001 C CNN
+F 0 "#PWR071" H 4400 650 50  0001 C CNN
 F 1 "GND" H 4400 750 50  0000 C CNN
 F 2 "" H 4400 900 50  0000 C CNN
 F 3 "" H 4400 900 50  0000 C CNN
@@ -444,31 +420,21 @@ Wire Wire Line
 Wire Wire Line
 	6500 3900 6600 3900
 Wire Wire Line
-	6600 3500 6500 3500
+	7700 3500 6500 3500
 Wire Wire Line
-	6600 3700 6500 3700
+	7700 3700 6500 3700
 Wire Wire Line
-	6500 3300 6600 3300
+	7700 3300 6500 3300
 Wire Wire Line
-	6500 3100 6600 3100
+	7700 3100 6500 3100
 Wire Wire Line
-	6500 2900 6600 2900
+	7700 2900 6500 2900
 Wire Wire Line
-	6500 2700 6600 2700
+	7700 2700 6500 2700
 Wire Wire Line
-	6500 2500 6600 2500
+	7700 2500 6500 2500
 Wire Wire Line
 	6500 2300 6600 2300
-Wire Wire Line
-	6500 2200 6600 2200
-Wire Wire Line
-	6500 2100 6600 2100
-Wire Wire Line
-	6500 2000 6600 2000
-Wire Wire Line
-	6500 1800 6600 1800
-Wire Wire Line
-	6500 1900 6600 1900
 Wire Wire Line
 	9500 1400 9600 1400
 Wire Wire Line
@@ -680,14 +646,36 @@ Wire Wire Line
 	6500 1100 7700 1100
 Connection ~ 7700 1100
 $Comp
-L GND #PWR066
+L GND #PWR072
 U 1 1 579B7925
 P 7700 5800
-F 0 "#PWR066" H 7700 5550 50  0001 C CNN
+F 0 "#PWR072" H 7700 5550 50  0001 C CNN
 F 1 "GND" H 7700 5650 50  0000 C CNN
 F 2 "" H 7700 5800 50  0000 C CNN
 F 3 "" H 7700 5800 50  0000 C CNN
 	1    7700 5800
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6500 1800 7700 1800
+Connection ~ 7700 1800
+Wire Wire Line
+	6500 1900 7700 1900
+Connection ~ 7700 1900
+Wire Wire Line
+	6500 2000 7700 2000
+Connection ~ 7700 2000
+Wire Wire Line
+	6500 2100 7700 2100
+Connection ~ 7700 2100
+Wire Wire Line
+	6500 2200 7700 2200
+Connection ~ 7700 2200
+Connection ~ 7700 2500
+Connection ~ 7700 2700
+Connection ~ 7700 2900
+Connection ~ 7700 3100
+Connection ~ 7700 3300
+Connection ~ 7700 3500
+Connection ~ 7700 3700
 $EndSCHEMATC
