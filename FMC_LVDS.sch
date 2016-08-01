@@ -29,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:leaf
-LIBS:cmv12000_breakout-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -44,203 +43,164 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 3650 900  2    59   BiDi ~ 0
+Text GLabel 3650 900  2    59   Input ~ 0
 CTRL_N
-Text GLabel 3650 1000 2    59   BiDi ~ 0
+Text GLabel 3650 1000 2    59   Input ~ 0
 CTRL_P
-Text GLabel 3650 1300 2    59   BiDi ~ 0
+Text GLabel 3650 1300 2    59   Input ~ 0
 LVDS_31_N
-Text GLabel 3650 1400 2    59   BiDi ~ 0
+Text GLabel 3650 1400 2    59   Input ~ 0
 LVDS_31_P
-Text GLabel 3650 1700 2    59   BiDi ~ 0
+Text GLabel 3650 1700 2    59   Input ~ 0
 LVDS_29_N
-Text GLabel 3650 1800 2    59   BiDi ~ 0
+Text GLabel 3650 1800 2    59   Input ~ 0
 LVDS_29_P
-Text GLabel 3650 2500 2    59   BiDi ~ 0
+Text GLabel 3650 2500 2    59   Input ~ 0
 LVDS_25_N
-Text GLabel 3650 2600 2    59   BiDi ~ 0
+Text GLabel 3650 2600 2    59   Input ~ 0
 LVDS_25_P
-Text GLabel 3650 3100 2    59   BiDi ~ 0
+Text GLabel 3650 3100 2    59   Input ~ 0
 LVDS_22_N
-Text GLabel 3650 3200 2    59   BiDi ~ 0
+Text GLabel 3650 3200 2    59   Input ~ 0
 LVDS_22_P
-Text GLabel 3650 3500 2    59   BiDi ~ 0
+Text GLabel 3650 3500 2    59   Input ~ 0
 LVDS_20_N
-Text GLabel 3650 3600 2    59   BiDi ~ 0
+Text GLabel 3650 3600 2    59   Input ~ 0
 LVDS_20_P
-Text GLabel 3650 4300 2    59   BiDi ~ 0
+Text GLabel 3650 4300 2    59   Input ~ 0
 LVDS_16_N
-Text GLabel 3650 4400 2    59   BiDi ~ 0
+Text GLabel 3650 4400 2    59   Input ~ 0
 LVDS_16_P
-Text GLabel 3650 5100 2    59   BiDi ~ 0
+Text GLabel 3650 5100 2    59   Input ~ 0
 LVDS_12_N
-Text GLabel 3650 5200 2    59   BiDi ~ 0
+Text GLabel 3650 5200 2    59   Input ~ 0
 LVDS_12_P
-Text GLabel 3650 5900 2    59   BiDi ~ 0
+Text GLabel 3650 5900 2    59   Input ~ 0
 LVDS_8_N
-Text GLabel 3650 6000 2    59   BiDi ~ 0
+Text GLabel 3650 6000 2    59   Input ~ 0
 LVDS_8_P
-Text GLabel 3650 6500 2    59   BiDi ~ 0
+Text GLabel 3650 6500 2    59   Input ~ 0
 LVDS_5_N
-Text GLabel 3650 6600 2    59   BiDi ~ 0
+Text GLabel 3650 6600 2    59   Input ~ 0
 LVDS_5_P
-Text GLabel 3650 6900 2    59   BiDi ~ 0
+Text GLabel 3650 6900 2    59   Input ~ 0
 LVDS_3_N
-Text GLabel 3650 7000 2    59   BiDi ~ 0
+Text GLabel 3650 7000 2    59   Input ~ 0
 LVDS_3_P
-Text GLabel 3650 1100 2    59   BiDi ~ 0
+Text GLabel 3650 1100 2    59   Input ~ 0
 LVDS_32_N
-Text GLabel 3650 1200 2    59   BiDi ~ 0
+Text GLabel 3650 1200 2    59   Input ~ 0
 LVDS_32_P
-Text GLabel 3650 1500 2    59   BiDi ~ 0
+Text GLabel 3650 1500 2    59   Input ~ 0
 LVDS_30_N
-Text GLabel 3650 1600 2    59   BiDi ~ 0
+Text GLabel 3650 1600 2    59   Input ~ 0
 LVDS_30_P
-Text GLabel 3650 2300 2    59   BiDi ~ 0
+Text GLabel 3650 2300 2    59   Input ~ 0
 LVDS_26_N
-Text GLabel 3650 2400 2    59   BiDi ~ 0
+Text GLabel 3650 2400 2    59   Input ~ 0
 LVDS_26_P
-Text GLabel 3650 2900 2    59   BiDi ~ 0
+Text GLabel 3650 2900 2    59   Input ~ 0
 LVDS_23_N
-Text GLabel 3650 3000 2    59   BiDi ~ 0
+Text GLabel 3650 3000 2    59   Input ~ 0
 LVDS_23_P
-Text GLabel 3650 3300 2    59   BiDi ~ 0
+Text GLabel 3650 3300 2    59   Input ~ 0
 LVDS_21_N
-Text GLabel 3650 3400 2    59   BiDi ~ 0
+Text GLabel 3650 3400 2    59   Input ~ 0
 LVDS_21_P
-Text GLabel 3650 4100 2    59   BiDi ~ 0
+Text GLabel 3650 4100 2    59   Input ~ 0
 LVDS_17_N
-Text GLabel 3650 4200 2    59   BiDi ~ 0
+Text GLabel 3650 4200 2    59   Input ~ 0
 LVDS_17_P
-Text GLabel 3650 4900 2    59   BiDi ~ 0
+Text GLabel 3650 4900 2    59   Input ~ 0
 LVDS_13_N
-Text GLabel 3650 5000 2    59   BiDi ~ 0
+Text GLabel 3650 5000 2    59   Input ~ 0
 LVDS_13_P
-Text GLabel 3650 5700 2    59   BiDi ~ 0
+Text GLabel 3650 5700 2    59   Input ~ 0
 LVDS_9_N
-Text GLabel 3650 5800 2    59   BiDi ~ 0
+Text GLabel 3650 5800 2    59   Input ~ 0
 LVDS_9_P
-Text GLabel 3650 6700 2    59   BiDi ~ 0
+Text GLabel 3650 6700 2    59   Input ~ 0
 LVDS_4_N
-Text GLabel 3650 6800 2    59   BiDi ~ 0
+Text GLabel 3650 6800 2    59   Input ~ 0
 LVDS_4_P
-Text GLabel 3650 7300 2    59   BiDi ~ 0
+Text GLabel 3650 7300 2    59   Input ~ 0
 LVDS_1_N
-Text GLabel 3650 7400 2    59   BiDi ~ 0
+Text GLabel 3650 7400 2    59   Input ~ 0
 LVDS_1_P
-Text GLabel 3650 2100 2    59   BiDi ~ 0
+Text GLabel 3650 2100 2    59   Input ~ 0
 LVDS_27_N
-Text GLabel 3650 2200 2    59   BiDi ~ 0
+Text GLabel 3650 2200 2    59   Input ~ 0
 LVDS_27_P
-Text GLabel 3650 2700 2    59   BiDi ~ 0
+Text GLabel 3650 2700 2    59   Input ~ 0
 LVDS_24_N
-Text GLabel 3650 2800 2    59   BiDi ~ 0
+Text GLabel 3650 2800 2    59   Input ~ 0
 LVDS_24_P
-Text GLabel 3650 3900 2    59   BiDi ~ 0
+Text GLabel 3650 3900 2    59   Input ~ 0
 LVDS_18_N
-Text GLabel 3650 4000 2    59   BiDi ~ 0
+Text GLabel 3650 4000 2    59   Input ~ 0
 LVDS_18_P
-Text GLabel 3650 4700 2    59   BiDi ~ 0
+Text GLabel 3650 4700 2    59   Input ~ 0
 LVDS_14_N
-Text GLabel 3650 4800 2    59   BiDi ~ 0
+Text GLabel 3650 4800 2    59   Input ~ 0
 LVDS_14_P
-Text GLabel 3650 5500 2    59   BiDi ~ 0
+Text GLabel 3650 5500 2    59   Input ~ 0
 LVDS_10_N
-Text GLabel 3650 5600 2    59   BiDi ~ 0
+Text GLabel 3650 5600 2    59   Input ~ 0
 LVDS_10_P
-Text GLabel 3650 6300 2    59   BiDi ~ 0
+Text GLabel 3650 6300 2    59   Input ~ 0
 LVDS_6_N
-Text GLabel 3650 6400 2    59   BiDi ~ 0
+Text GLabel 3650 6400 2    59   Input ~ 0
 LVDS_6_P
-Text GLabel 3650 7100 2    59   BiDi ~ 0
+Text GLabel 3650 7100 2    59   Input ~ 0
 LVDS_2_N
-Text GLabel 3650 7200 2    59   BiDi ~ 0
+Text GLabel 3650 7200 2    59   Input ~ 0
 LVDS_2_P
-Text GLabel 3650 1900 2    59   BiDi ~ 0
+Text GLabel 3650 1900 2    59   Input ~ 0
 LVDS_28_N
-Text GLabel 3650 2000 2    59   BiDi ~ 0
+Text GLabel 3650 2000 2    59   Input ~ 0
 LVDS_28_P
-Text GLabel 3650 3700 2    59   BiDi ~ 0
+Text GLabel 3650 3700 2    59   Input ~ 0
 LVDS_19_N
-Text GLabel 3650 3800 2    59   BiDi ~ 0
+Text GLabel 3650 3800 2    59   Input ~ 0
 LVDS_19_P
-Text GLabel 3650 4500 2    59   BiDi ~ 0
+Text GLabel 3650 4500 2    59   Input ~ 0
 LVDS_15_N
-Text GLabel 3650 4600 2    59   BiDi ~ 0
+Text GLabel 3650 4600 2    59   Input ~ 0
 LVDS_15_P
-Text GLabel 3650 5300 2    59   BiDi ~ 0
+Text GLabel 3650 5300 2    59   Input ~ 0
 LVDS_11_N
-Text GLabel 3650 5400 2    59   BiDi ~ 0
+Text GLabel 3650 5400 2    59   Input ~ 0
 LVDS_11_P
-Text GLabel 3650 6100 2    59   BiDi ~ 0
+Text GLabel 3650 6100 2    59   Input ~ 0
 LVDS_7_N
-Text GLabel 3650 6200 2    59   BiDi ~ 0
+Text GLabel 3650 6200 2    59   Input ~ 0
 LVDS_7_P
 Text GLabel 6600 2300 2    59   Output ~ 0
 SPI_CLK
 Text GLabel 6600 4500 2    60   Output ~ 0
 T_EXP2
-Text GLabel 6600 5200 2    59   BiDi ~ 0
+Text GLabel 6600 5200 2    59   Input ~ 0
 SYS_RES_N
-Text GLabel 6600 5300 2    59   BiDi ~ 0
+Text GLabel 6600 5300 2    59   Input ~ 0
 FRAME_REQ
 Text GLabel 6600 5100 2    59   Output ~ 0
 SPI_MOSI
-Text GLabel 6600 4100 2    60   BiDi ~ 0
+Text GLabel 6600 4100 2    60   Input ~ 0
 Tdig1
-Text GLabel 6600 3900 2    60   BiDi ~ 0
+Text GLabel 6600 3900 2    60   Input ~ 0
 Tdig2
 Text GLabel 6600 4700 2    60   Output ~ 0
 T_EXP1
 Text GLabel 6600 5500 2    59   Output ~ 0
 CLK_IN
-$Comp
-L KC705_FMC_HPC-RESCUE-cmv12000_breakout U?
-U 3 1 579B4626
-P 2150 7500
-AR Path="/579B4626" Ref="U?"  Part="3" 
-AR Path="/5789B67E/5795395A/579B4626" Ref="U3"  Part="3" 
-F 0 "U3" H 2150 7450 50  0000 L CNN
-F 1 "KC705_FMC_HPC" H 2150 7350 50  0000 L CNN
-F 2 "" H 4650 9200 50  0001 L CNN
-F 3 "" H 4650 9200 50  0001 L CNN
-	3    2150 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L KC705_FMC_HPC-RESCUE-cmv12000_breakout U?
-U 4 1 579B4734
-P 5100 5800
-AR Path="/579B4734" Ref="U?"  Part="4" 
-AR Path="/5789B67E/5795395A/579B4734" Ref="U3"  Part="4" 
-F 0 "U3" H 5100 5750 50  0000 L CNN
-F 1 "KC705_FMC_HPC" H 5100 5650 50  0000 L CNN
-F 2 "" H 7600 7500 50  0001 L CNN
-F 3 "" H 7600 7500 50  0001 L CNN
-	4    5100 5800
-	1    0    0    -1  
-$EndComp
-Text GLabel 6600 5600 2    59   BiDi ~ 0
+Text GLabel 6600 5600 2    59   Input ~ 0
 LVDS_CLK_N
-Text GLabel 6600 5700 2    59   BiDi ~ 0
+Text GLabel 6600 5700 2    59   Input ~ 0
 LVDS_CLK_P
 Text GLabel 6600 4900 2    59   Output ~ 0
 SPI_CS_N
 Text GLabel 6600 4300 2    59   Input ~ 0
 SPI_MISO
-$Comp
-L KC705_FMC_HPC-RESCUE-cmv12000_breakout U?
-U 5 1 579B47B1
-P 8100 5800
-AR Path="/579B47B1" Ref="U?"  Part="5" 
-AR Path="/5789B67E/5795395A/579B47B1" Ref="U3"  Part="5" 
-F 0 "U3" H 8100 5750 50  0000 L CNN
-F 1 "KC705_FMC_HPC" H 8100 5650 50  0000 L CNN
-F 2 "" H 10600 7500 50  0001 L CNN
-F 3 "" H 10600 7500 50  0001 L CNN
-	5    8100 5800
-	1    0    0    -1  
-$EndComp
 $Comp
 L GND #PWR070
 U 1 1 579B5AAA
@@ -678,4 +638,37 @@ Connection ~ 7700 3100
 Connection ~ 7700 3300
 Connection ~ 7700 3500
 Connection ~ 7700 3700
+$Comp
+L KC705_FMC_HPC U2
+U 3 1 579FE3A8
+P 2150 7500
+F 0 "U2" H 2150 7450 50  0000 L CNN
+F 1 "KC705_FMC_HPC" H 2150 7350 50  0000 L CNN
+F 2 "" H 4650 9200 50  0001 L CNN
+F 3 "" H 4650 9200 50  0001 L CNN
+	3    2150 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L KC705_FMC_HPC U2
+U 4 1 579FE463
+P 5100 5800
+F 0 "U2" H 5100 5750 50  0000 L CNN
+F 1 "KC705_FMC_HPC" H 5100 5650 50  0000 L CNN
+F 2 "" H 7600 7500 50  0001 L CNN
+F 3 "" H 7600 7500 50  0001 L CNN
+	4    5100 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L KC705_FMC_HPC U2
+U 5 1 579FE4C0
+P 8100 5800
+F 0 "U2" H 8100 5750 50  0000 L CNN
+F 1 "KC705_FMC_HPC" H 8100 5650 50  0000 L CNN
+F 2 "" H 10600 7500 50  0001 L CNN
+F 3 "" H 10600 7500 50  0001 L CNN
+	5    8100 5800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
