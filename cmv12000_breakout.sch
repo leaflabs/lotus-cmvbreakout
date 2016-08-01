@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:leaf
+LIBS:cmv12000_breakout-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -61,4 +62,6 @@ U 5789B67E
 F0 "FMC" 60
 F1 "FMC.sch" 60
 $EndSheet
+Text Notes 950  1050 0    79   ~ 0
+Layout notes:\n1. Board size/layout should be to FMC mezzazine card specification\n2. All passives 0603 footprint unless otherwise specified
 $EndSCHEMATC
