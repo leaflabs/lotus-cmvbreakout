@@ -1,4 +1,4 @@
-update=Mon 01 Aug 2016 07:30:02 PM EDT
+update=Mon 01 Aug 2016 08:35:42 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=59
 [eeschema]
 version=1
 LibDir=../hardware-lib
@@ -70,3 +60,13 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=/home/jessb/Projects/leafhw/hardware-lib/leaf
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=OrcadPCB2
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=59

@@ -86,8 +86,6 @@ NoConn ~ 2900 4500
 NoConn ~ 9000 2200
 NoConn ~ 9000 2300
 NoConn ~ 9000 2500
-NoConn ~ 9000 3400
-NoConn ~ 9000 3500
 NoConn ~ 9000 3600
 NoConn ~ 9000 3700
 NoConn ~ 9000 3800
@@ -138,4 +136,12 @@ F 3 "" H 10100 6300 50  0001 L CNN
 	8    7600 4600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9000 3400 9100 3400
+Wire Wire Line
+	9000 3500 9100 3500
+Text GLabel 9100 3400 2    59   Input ~ 0
+OUTCLK_N
+Text GLabel 9100 3500 2    59   Input ~ 0
+OUTCLK_P
 $EndSCHEMATC

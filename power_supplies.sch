@@ -872,4 +872,6 @@ Connection ~ 9250 3100
 Connection ~ 4050 3100
 Connection ~ 4000 1100
 Connection ~ 8550 1100
+Text Notes 8600 5200 2    59   ~ 0
+Use 1206 footprint components for R4, R5, R6, R9, R10
 $EndSCHEMATC

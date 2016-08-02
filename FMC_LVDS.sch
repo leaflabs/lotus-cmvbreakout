@@ -179,33 +179,29 @@ Text GLabel 6600 2300 2    59   Output ~ 0
 SPI_CLK
 Text GLabel 6600 4500 2    60   Output ~ 0
 T_EXP2
-Text GLabel 6600 5200 2    59   Input ~ 0
+Text GLabel 6600 5200 2    59   Output ~ 0
 SYS_RES_N
-Text GLabel 6600 5300 2    59   Input ~ 0
+Text GLabel 6600 5300 2    59   Output ~ 0
 FRAME_REQ
 Text GLabel 6600 5100 2    59   Output ~ 0
 SPI_MOSI
-Text GLabel 6600 4100 2    60   Input ~ 0
-Tdig1
-Text GLabel 6600 3900 2    60   Input ~ 0
-Tdig2
 Text GLabel 6600 4700 2    60   Output ~ 0
 T_EXP1
 Text GLabel 6600 5500 2    59   Output ~ 0
 CLK_IN
-Text GLabel 6600 5600 2    59   Input ~ 0
+Text GLabel 6600 5600 2    59   Output ~ 0
 LVDS_CLK_N
-Text GLabel 6600 5700 2    59   Input ~ 0
+Text GLabel 6600 5700 2    59   Output ~ 0
 LVDS_CLK_P
 Text GLabel 6600 4900 2    59   Output ~ 0
 SPI_CS_N
 Text GLabel 6600 4300 2    59   Input ~ 0
 SPI_MISO
 $Comp
-L GND #PWR070
+L GND #PWR072
 U 1 1 579B5AAA
 P 9600 5800
-F 0 "#PWR070" H 9600 5550 50  0001 C CNN
+F 0 "#PWR072" H 9600 5550 50  0001 C CNN
 F 1 "GND" H 9600 5650 50  0000 C CNN
 F 2 "" H 9600 5800 50  0000 C CNN
 F 3 "" H 9600 5800 50  0000 C CNN
@@ -213,10 +209,10 @@ F 3 "" H 9600 5800 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR071
+L GND #PWR073
 U 1 1 579B6170
 P 4400 900
-F 0 "#PWR071" H 4400 650 50  0001 C CNN
+F 0 "#PWR073" H 4400 650 50  0001 C CNN
 F 1 "GND" H 4400 750 50  0000 C CNN
 F 2 "" H 4400 900 50  0000 C CNN
 F 3 "" H 4400 900 50  0000 C CNN
@@ -376,9 +372,9 @@ Wire Wire Line
 Wire Wire Line
 	6500 4300 6600 4300
 Wire Wire Line
-	6600 4100 6500 4100
+	6500 4100 7700 4100
 Wire Wire Line
-	6500 3900 6600 3900
+	6500 3900 7700 3900
 Wire Wire Line
 	7700 3500 6500 3500
 Wire Wire Line
@@ -606,10 +602,10 @@ Wire Wire Line
 	6500 1100 7700 1100
 Connection ~ 7700 1100
 $Comp
-L GND #PWR072
+L GND #PWR074
 U 1 1 579B7925
 P 7700 5800
-F 0 "#PWR072" H 7700 5550 50  0001 C CNN
+F 0 "#PWR074" H 7700 5550 50  0001 C CNN
 F 1 "GND" H 7700 5650 50  0000 C CNN
 F 2 "" H 7700 5800 50  0000 C CNN
 F 3 "" H 7700 5800 50  0000 C CNN
@@ -671,4 +667,6 @@ F 3 "" H 10600 7500 50  0001 L CNN
 	5    8100 5800
 	1    0    0    -1  
 $EndComp
+Connection ~ 7700 3900
+Connection ~ 7700 4100
 $EndSCHEMATC

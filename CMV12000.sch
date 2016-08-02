@@ -307,282 +307,16 @@ Text GLabel 2600 3000 2    59   Output ~ 0
 LVDS_25_P
 Text GLabel 2600 6900 2    59   Output ~ 0
 LVDS_9_N
-Wire Wire Line
-	5300 900  5400 900 
-Wire Wire Line
-	5300 1000 5400 1000
-Wire Wire Line
-	5300 1100 5400 1100
-Wire Wire Line
-	5300 1200 5400 1200
-Wire Wire Line
-	5300 1300 5400 1300
-Wire Wire Line
-	5300 1400 5400 1400
-Wire Wire Line
-	5300 1500 5400 1500
-Wire Wire Line
-	5300 1600 5400 1600
-Wire Wire Line
-	5300 1700 5400 1700
-Wire Wire Line
-	5300 1800 5400 1800
-Wire Wire Line
-	5300 1900 5400 1900
-Wire Wire Line
-	5300 2000 5400 2000
-Wire Wire Line
-	5300 2100 5400 2100
-Wire Wire Line
-	5300 2200 5400 2200
-Wire Wire Line
-	5300 2300 5400 2300
-Wire Wire Line
-	5300 2400 5400 2400
-Wire Wire Line
-	5300 2500 5400 2500
-Wire Wire Line
-	5300 2600 5400 2600
-Wire Wire Line
-	5300 2700 5400 2700
-Wire Wire Line
-	5300 2800 5400 2800
-Wire Wire Line
-	5300 2900 5400 2900
-Wire Wire Line
-	5300 3000 5400 3000
-Wire Wire Line
-	5300 3100 5400 3100
-Wire Wire Line
-	5300 3200 5400 3200
-Wire Wire Line
-	5300 3300 5400 3300
-Wire Wire Line
-	5300 3400 5400 3400
-Wire Wire Line
-	5300 3500 5400 3500
-Wire Wire Line
-	5300 3600 5400 3600
-Wire Wire Line
-	5300 3700 5400 3700
-Wire Wire Line
-	5300 3800 5400 3800
-Wire Wire Line
-	5300 3900 5400 3900
-Wire Wire Line
-	5300 4000 5400 4000
-Wire Wire Line
-	5300 4100 5400 4100
-Wire Wire Line
-	5300 4200 5400 4200
-Wire Wire Line
-	5300 4300 5400 4300
-Wire Wire Line
-	5300 4400 5400 4400
-Wire Wire Line
-	5300 4500 5400 4500
-Wire Wire Line
-	5300 4600 5400 4600
-Wire Wire Line
-	5300 4700 5400 4700
-Wire Wire Line
-	5300 4800 5400 4800
-Wire Wire Line
-	5300 4900 5400 4900
-Wire Wire Line
-	5300 5000 5400 5000
-Wire Wire Line
-	5300 5100 5400 5100
-Wire Wire Line
-	5300 5200 5400 5200
-Wire Wire Line
-	5300 5300 5400 5300
-Wire Wire Line
-	5300 5400 5400 5400
-Wire Wire Line
-	5300 5500 5400 5500
-Wire Wire Line
-	5300 5600 5400 5600
-Wire Wire Line
-	5300 5700 5400 5700
-Wire Wire Line
-	5300 5800 5400 5800
-Wire Wire Line
-	5300 5900 5400 5900
-Wire Wire Line
-	5300 6000 5400 6000
-Wire Wire Line
-	5300 6100 5400 6100
-Wire Wire Line
-	5300 6200 5400 6200
-Wire Wire Line
-	5300 6300 5400 6300
-Wire Wire Line
-	5300 6400 5400 6400
-Wire Wire Line
-	5300 6500 5400 6500
-Wire Wire Line
-	5300 6600 5400 6600
-Wire Wire Line
-	5300 6700 5400 6700
-Wire Wire Line
-	5300 6800 5400 6800
-Wire Wire Line
-	5300 6900 5400 6900
-Wire Wire Line
-	5300 7000 5400 7000
-Wire Wire Line
-	5300 7100 5400 7100
-Wire Wire Line
-	5300 7200 5400 7200
-Wire Wire Line
-	5300 7300 5400 7300
-Text GLabel 5400 800  2    59   Output ~ 0
-LVDS_63_P
-Text GLabel 5400 900  2    59   Output ~ 0
-LVDS_63_N
-Text GLabel 5400 1100 2    59   Output ~ 0
-LVDS_56_N
-Text GLabel 5400 1200 2    59   Output ~ 0
-LVDS_52_P
-Text GLabel 5400 1300 2    59   Output ~ 0
-LVDS_52_N
-Text GLabel 5400 1400 2    59   Output ~ 0
-LVDS_45_P
-Text GLabel 5400 1500 2    59   Output ~ 0
-LVDS_45_N
-Text GLabel 5400 1600 2    59   Output ~ 0
-LVDS_41_P
-Text GLabel 5400 1700 2    59   Output ~ 0
-LVDS_41_N
-Text GLabel 5400 1800 2    59   Output ~ 0
-LVDS_34_P
-Text GLabel 5400 1900 2    59   Output ~ 0
-LVDS_34_N
-Text GLabel 5400 2000 2    59   Output ~ 0
-LVDS_64_P
-Text GLabel 5400 2100 2    59   Output ~ 0
-LVDS_64_N
-Text GLabel 5400 2200 2    59   Output ~ 0
-LVDS_61_P
-Text GLabel 5400 2300 2    59   Output ~ 0
-LVDS_61_N
-Text GLabel 5400 2400 2    59   Output ~ 0
-LVDS_58_P
-Text GLabel 5400 2500 2    59   Output ~ 0
-LVDS_58_N
-Text GLabel 5400 2600 2    59   Output ~ 0
-LVDS_54_P
-Text GLabel 5400 2700 2    59   Output ~ 0
-LVDS_54_N
-Text GLabel 5400 2800 2    59   Output ~ 0
-LVDS_50_P
-Text GLabel 5400 2900 2    59   Output ~ 0
-LVDS_50_N
-Text GLabel 5400 3200 2    59   Output ~ 0
-LVDS_43_P
-Text GLabel 5400 3300 2    59   Output ~ 0
-LVDS_43_N
-Text GLabel 5400 3400 2    59   Output ~ 0
-LVDS_39_P
-Text GLabel 5400 3500 2    59   Output ~ 0
-LVDS_39_N
-Text GLabel 5400 3600 2    59   Output ~ 0
-LVDS_36_P
-Text GLabel 5400 3700 2    59   Output ~ 0
-LVDS_36_N
-Text GLabel 5400 4000 2    59   Output ~ 0
-LVDS_60_P
-Text GLabel 5400 4100 2    59   Output ~ 0
-LVDS_60_N
-Text GLabel 5400 4200 2    59   Output ~ 0
-LVDS_57_P
-Text GLabel 5400 4300 2    59   Output ~ 0
-LVDS_57_N
-Text GLabel 5400 4400 2    59   Output ~ 0
-LVDS_53_P
-Text GLabel 5400 4500 2    59   Output ~ 0
-LVDS_53_N
-Text GLabel 5400 4600 2    59   Output ~ 0
-LVDS_49_P
-Text GLabel 5400 4700 2    59   Output ~ 0
-LVDS_49_N
-Text GLabel 5400 4800 2    59   Output ~ 0
-LVDS_48_P
-Text GLabel 5400 4900 2    59   Output ~ 0
-LVDS_48_N
-Text GLabel 5400 5000 2    59   Output ~ 0
-LVDS_44_P
-Text GLabel 5400 5100 2    59   Output ~ 0
-LVDS_44_N
-Text GLabel 5400 5200 2    59   Output ~ 0
-LVDS_40_P
-Text GLabel 5400 5300 2    59   Output ~ 0
-LVDS_40_N
-Text GLabel 5400 5400 2    59   Output ~ 0
-LVDS_37_P
-Text GLabel 5400 5500 2    59   Output ~ 0
-LVDS_37_N
-Text GLabel 5400 5600 2    59   Output ~ 0
-LVDS_33_P
-Text GLabel 5400 5700 2    59   Output ~ 0
-LVDS_33_N
-Text GLabel 5400 5800 2    59   Output ~ 0
-LVDS_62_P
-Text GLabel 5400 5900 2    59   Output ~ 0
-LVDS_62_N
-Text GLabel 5400 6000 2    59   Output ~ 0
-LVDS_59_P
-Text GLabel 5400 6100 2    59   Output ~ 0
-LVDS_59_N
-Text GLabel 5400 6200 2    59   Output ~ 0
-LVDS_55_P
-Text GLabel 5400 6300 2    59   Output ~ 0
-LVDS_55_N
-Text GLabel 5400 6400 2    59   Output ~ 0
-LVDS_51_P
-Text GLabel 5400 6500 2    59   Output ~ 0
-LVDS_51_N
-Text GLabel 5400 6600 2    59   Output ~ 0
-LVDS_46_P
-Text GLabel 5400 6800 2    59   Output ~ 0
-LVDS_42_P
-Text GLabel 5400 7000 2    59   Output ~ 0
-LVDS_38_P
-Text GLabel 5400 7100 2    59   Output ~ 0
-LVDS_38_N
-Text GLabel 5400 1000 2    59   Output ~ 0
-LVDS_56_P
-Text GLabel 5400 3100 2    59   Output ~ 0
-LVDS_47_N
-Text GLabel 5400 3000 2    59   Output ~ 0
-LVDS_47_P
-Text GLabel 5400 6700 2    59   Output ~ 0
-LVDS_46_N
-Text GLabel 5400 7200 2    59   Output ~ 0
-LVDS_35_P
-Text GLabel 5400 7300 2    59   Output ~ 0
-LVDS_35_N
 Text GLabel 2600 7200 2    59   Output ~ 0
 CTRL_P
 Text GLabel 2600 7300 2    59   Output ~ 0
 CTRL_N
 Text GLabel 2600 6700 2    59   Output ~ 0
 LVDS_13_N
-Text GLabel 5400 6900 2    59   Output ~ 0
-LVDS_42_N
-Text GLabel 5400 7400 2    59   Output ~ 0
-LVDS_CLK_P
-Text GLabel 5400 7500 2    59   Output ~ 0
-LVDS_CLK_N
 Wire Wire Line
 	5300 7400 5400 7400
 Wire Wire Line
 	5300 7500 5400 7500
-Text GLabel 5400 3800 2    59   Output ~ 0
-OUTCLK_P
-Text GLabel 5400 3900 2    59   Output ~ 0
-OUTCLK_N
 Wire Wire Line
 	7800 3000 7700 3000
 Wire Wire Line
@@ -619,18 +353,14 @@ Text GLabel 7700 3300 0    59   Output ~ 0
 SPI_MISO
 Text GLabel 7700 3500 0    59   Input ~ 0
 CLK_IN
-Text GLabel 7700 3600 0    59   Output ~ 0
+Text GLabel 7700 3600 0    59   Input ~ 0
 SYS_RES_N
 Text GLabel 7700 3700 0    59   Input ~ 0
 T_EXP1
 Text GLabel 7700 3800 0    59   Input ~ 0
 T_EXP2
-Text GLabel 7700 3900 0    59   Output ~ 0
+Text GLabel 7700 3900 0    59   Input ~ 0
 FRAME_REQ
-Text GLabel 7700 4700 0    59   Output ~ 0
-Tdig1
-Text GLabel 7700 4800 0    59   Output ~ 0
-Tdig2
 NoConn ~ 9400 4300
 NoConn ~ 9400 4400
 NoConn ~ 9400 4500
@@ -670,18 +400,16 @@ Wire Wire Line
 	6950 4900 6950 4800
 Connection ~ 6650 4900
 $Comp
-L GND #PWR045
+L GND #PWR047
 U 1 1 579A7092
 P 6650 5000
-F 0 "#PWR045" H 6650 4750 50  0001 C CNN
+F 0 "#PWR047" H 6650 4750 50  0001 C CNN
 F 1 "GND" H 6650 4850 50  0000 C CNN
 F 2 "" H 6650 5000 50  0000 C CNN
 F 3 "" H 6650 5000 50  0000 C CNN
 	1    6650 5000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5300 800  5400 800 
 Wire Wire Line
 	7700 3500 7800 3500
 $Comp
@@ -717,4 +445,84 @@ F 3 "" H 9400 5750 50  0001 L CNN
 	3    9400 5050
 	1    0    0    -1  
 $EndComp
+Text GLabel 5400 7500 2    59   Input ~ 0
+LVDS_CLK_N
+Text GLabel 5400 7400 2    59   Input ~ 0
+LVDS_CLK_P
+NoConn ~ 5300 800 
+NoConn ~ 5300 900 
+NoConn ~ 5300 1000
+NoConn ~ 5300 1100
+NoConn ~ 5300 1200
+NoConn ~ 5300 1300
+NoConn ~ 5300 1400
+NoConn ~ 5300 1500
+NoConn ~ 5300 1600
+NoConn ~ 5300 1700
+NoConn ~ 5300 1800
+NoConn ~ 5300 1900
+NoConn ~ 5300 2000
+NoConn ~ 5300 2100
+NoConn ~ 5300 2200
+NoConn ~ 5300 2300
+NoConn ~ 5300 2400
+NoConn ~ 5300 2500
+NoConn ~ 5300 2600
+NoConn ~ 5300 2700
+NoConn ~ 5300 2800
+NoConn ~ 5300 2900
+NoConn ~ 5300 3000
+NoConn ~ 5300 3100
+NoConn ~ 5300 3200
+NoConn ~ 5300 3300
+NoConn ~ 5300 3400
+NoConn ~ 5300 3500
+NoConn ~ 5300 3600
+NoConn ~ 5300 3700
+NoConn ~ 5300 4000
+NoConn ~ 5300 4100
+NoConn ~ 5300 4200
+NoConn ~ 5300 4300
+NoConn ~ 5300 4400
+NoConn ~ 5300 4500
+NoConn ~ 5300 4600
+NoConn ~ 5300 4700
+NoConn ~ 5300 4800
+NoConn ~ 5300 4900
+NoConn ~ 5300 5000
+NoConn ~ 5300 5100
+NoConn ~ 5300 5200
+NoConn ~ 5300 5300
+NoConn ~ 5300 5400
+NoConn ~ 5300 5500
+NoConn ~ 5300 5600
+NoConn ~ 5300 5700
+NoConn ~ 5300 5800
+NoConn ~ 5300 5900
+NoConn ~ 5300 6000
+NoConn ~ 5300 6100
+NoConn ~ 5300 6200
+NoConn ~ 5300 6300
+NoConn ~ 5300 6400
+NoConn ~ 5300 6500
+NoConn ~ 5300 6600
+NoConn ~ 5300 6700
+NoConn ~ 5300 6800
+NoConn ~ 5300 6900
+NoConn ~ 5300 7000
+NoConn ~ 5300 7100
+NoConn ~ 5300 7200
+NoConn ~ 5300 7300
+NoConn ~ 7700 4700
+NoConn ~ 7700 4800
+Wire Wire Line
+	5300 3800 5400 3800
+Wire Wire Line
+	5300 3900 5400 3900
+Text GLabel 5400 3900 2    59   Output ~ 0
+OUTCLK_N
+Text GLabel 5400 3800 2    59   Output ~ 0
+OUTCLK_P
+Text Notes 8900 900  2    59   ~ 0
+LVDS signals operate at 600MHz; use high-speed design principles.
 $EndSCHEMATC
