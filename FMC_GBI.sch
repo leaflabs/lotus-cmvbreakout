@@ -154,4 +154,6 @@ Wire Wire Line
 	9050 2800 9050 2900
 Wire Wire Line
 	9050 2900 9000 2900
+Text Notes 9100 2900 0    59   ~ 0
+Tie together to enable JTAG passthrough
 $EndSCHEMATC
