@@ -29,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:leaf
-LIBS:cmv12000_breakout-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -99,8 +98,6 @@ NoConn ~ 9000 4400
 NoConn ~ 9000 4500
 NoConn ~ 9000 2400
 NoConn ~ 9000 2700
-NoConn ~ 9000 2800
-NoConn ~ 9000 2900
 NoConn ~ 9000 3000
 NoConn ~ 9000 3100
 NoConn ~ 9000 3300
@@ -151,4 +148,10 @@ Text GLabel 9100 3400 2    59   Input ~ 0
 OUTCLK_N
 Text GLabel 9100 3500 2    59   Input ~ 0
 OUTCLK_P
+Wire Wire Line
+	9000 2800 9050 2800
+Wire Wire Line
+	9050 2800 9050 2900
+Wire Wire Line
+	9050 2900 9000 2900
 $EndSCHEMATC
