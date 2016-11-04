@@ -103,7 +103,7 @@ L R R1
 U 1 1 579B9A62
 P 3100 2200
 F 0 "R1" V 3180 2200 50  0000 C CNN
-F 1 "39.5K" V 3100 2200 50  0000 C CNN
+F 1 "39K5" V 3100 2200 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 3250 2200 50  0001 C CNN
 F 3 "" H 3100 2200 50  0000 C CNN
 	1    3100 2200
@@ -1044,4 +1044,14 @@ Wire Notes Line
 	10450 2100 9600 2100
 Wire Notes Line
 	5700 6150 4850 6150
+Text Notes 7000 3950 0    59   ~ 0
+supply      voltage        nom current       peak current\n\nVDD18      1.98V          750mA            1.7A\nVDD_PIX    3.0V            15mA             1A\nVDD33      3.3V            180mA           250mA\nVDD_RES    3.3V            25mA            100mA
+Wire Notes Line
+	6950 3350 6950 4050
+Wire Notes Line
+	6950 4050 9750 4050
+Wire Notes Line
+	9750 4050 9750 3350
+Wire Notes Line
+	9750 3350 6950 3350
 $EndSCHEMATC

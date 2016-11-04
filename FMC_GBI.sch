@@ -84,8 +84,6 @@ NoConn ~ 2900 4200
 NoConn ~ 2900 4300
 NoConn ~ 2900 4400
 NoConn ~ 2900 4500
-NoConn ~ 9000 2200
-NoConn ~ 9000 2300
 NoConn ~ 9000 2500
 NoConn ~ 9000 3600
 NoConn ~ 9000 3700
@@ -157,4 +155,22 @@ Wire Wire Line
 	9050 2900 9000 2900
 Text Notes 9100 2900 0    59   ~ 0
 Tie together to enable JTAG passthrough
+$Comp
+L GND #PWR71
+U 1 1 581D5AC0
+P 9100 2200
+F 0 "#PWR71" H 9100 1950 50  0001 C CNN
+F 1 "GND" H 9100 2050 50  0000 C CNN
+F 2 "" H 9100 2200 50  0000 C CNN
+F 3 "" H 9100 2200 50  0000 C CNN
+	1    9100 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9050 2300 9050 2200
+Wire Wire Line
+	9000 2200 9100 2200
+Connection ~ 9050 2200
+Wire Wire Line
+	9050 2300 9000 2300
 $EndSCHEMATC

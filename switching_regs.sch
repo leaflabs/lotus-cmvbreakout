@@ -920,7 +920,6 @@ F 3 "" H 9750 2350 50  0000 C CNN
 	1    9550 2350
 	1    0    0    -1  
 $EndComp
-Connection ~ 8700 2350
 Text GLabel 4500 2400 3    59   Output ~ 0
 2V8
 $Comp
