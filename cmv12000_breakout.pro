@@ -1,4 +1,4 @@
-update=Mon 01 Aug 2016 08:35:42 PM EDT
+update=Fri 04 Nov 2016 02:39:40 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,7 +63,7 @@ LibName31=/home/jessb/Projects/leafhw/hardware-lib/leaf
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=ROUGH.respin4.cmv12k_breakout
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=OrcadPCB2
